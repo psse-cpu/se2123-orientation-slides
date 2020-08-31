@@ -7,7 +7,7 @@ SUBTERMS PACE
 
 #### ~~Summer Classes~~ Subterms are fast-paced
 
-* SE-3121 is a 2-unit lecture, 3 unit lab course
+* SE-2123 is a 2-unit lecture, 3 unit lab course
   - a sem has 18 weeks, so we need 36 + 54 hours of lec/lab
   - to get 36 + 54 hours of lec/lab in a subterm, we need:
     + 1h 20 mins of lec each day * 27 days = 36 hours lec **(7:40-9 AM M-F)**
