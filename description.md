@@ -84,11 +84,11 @@ Your batch already had JS in SE-1121, lucky you 😂
 
 ### Which FP language? (2/3)
 
-* But why JS, I <span style="color: red">♥</span> Dart so much - less errors!
+* But why JS? I <span style="color: red">♥</span> Dart so much - less errors!
   - only lecture demos will be in JS
   - nobody is forced to use JS in any activities
   - but make sure your language has autocurrying, which Dart can't do, even with a lib
-  - will use ReasonML when Part 1 is about to end, better type-safety than Dart! (no `dynamic` type)
+  - we'll use ReasonML when Part 1 is about to end, better type-safety than Dart! (no `dynamic` type)
 * SE-2125 (Web Application Development) in the second subterm will be in JS
   - the browser can only understand JS
   - less languages to learn
