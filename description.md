@@ -16,7 +16,6 @@ DESCRIPTION
 
 * Despite the name _"Software Development III"_, it's not a continuation, or a _Part 3_
   - The continuation of SE-1223 is SE-2122 (Software Component Design)
-    + to be offered in the 3rd subterm
     + SE-2122 focuses mainly on Design Patterns that have OOP roots
   - Part 1 of SE-2123 actually forbids many OOP techniques
   - however, many things learned in SE-1223 are needed:
@@ -32,10 +31,10 @@ DESCRIPTION
 * Part 1 is Functional Programming
   - central activity in OOP is creating objects from other objects (object composition)
   - central activity in FP is creating functions from other functions (function composition)
-* Part 2 is Low-level Programming with Manual Memory Management
-  - procedural programming with C
-  - object-oriented programming with C++
-  - [why?](https://github.com/ossu/computer-science/blob/master/FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50)
+* Part 2 is Low-level Programming with Manual Memory Management in both C and C++
+  - [why?](https://github.com/ossu/computer-science/issues/833)  It's a good 
+    chance for students to play with manual memory management
+  - will skip if no time
 
 
 
@@ -57,7 +56,7 @@ DESCRIPTION
   <img src="images/forbidden.png" alt="forbidden">
   <div>
   <ul style="font-size: 0.8em">
-  <li>FP FP it's not a simple transition.</li> 
+  <li>FP it's not a simple transition.</li> 
   <li>Many OOP (and imperative, and procedural) techniques are forbidden in FP.</li>
   <li>
     Can you imagine coding without
@@ -78,7 +77,7 @@ DESCRIPTION
 
 ![js](images/js.jpg)
 
-Your batch already had JS in SE-1121, lucky you 😂
+We'll also use Typescript to provide type-safety.
 
 
 
@@ -88,7 +87,7 @@ Your batch already had JS in SE-1121, lucky you 😂
   - only lecture demos will be in JS
   - nobody is forced to use JS in any activities
   - but make sure your language has autocurrying, which Dart can't do, even with a lib
-  - we'll use ReasonML when Part 1 is about to end, better type-safety than Dart! (no `dynamic` type)
+  - we'll use a better FP language when Part 1 is about to end
 * SE-2125 (Web Application Development) in the second subterm will be in JS
   - the browser can only understand JS
   - less languages to learn
@@ -106,7 +105,7 @@ Your batch already had JS in SE-1121, lucky you 😂
   - why switch to another FP language in the end?
     + just for experience with an FP-first language, and for comparison
     + FP can be [unnatural in JS](https://hackernoon.com/functional-programming-in-javascript-is-an-antipattern-58526819f21e), and you have to fight it sometimes
-    + you can do your final project in JS, ReasonML, or any FP langauge
+    + you can do your final project in JS, TS, or even a purely FP language
 
 
 
@@ -158,7 +157,7 @@ Remember `no-nil` and `no-throw`?  We'll discuss how FP handles nulls and except
 
 ### What we'll learn (6/7)
 
-![rason](images/reason.png)
+![rason](images/pure-fp.jpg)
 
 Translate all FP techniques you learned in JS into another language that emphasizes FP from the 
 get-go.
@@ -169,7 +168,7 @@ get-go.
 
 ![rason](images/garbage.jpg)
 
-Low(ish)-level programming and manual garbage collection with C/C++, if the subterm can
+Low(ish)-level programming and manual garbage collection with C/C++, if we can
 get this far
 
 
@@ -177,8 +176,8 @@ get this far
 ### Pre-requisites
 
 * SE 1222 - Data Structures
-  - lists: emphasis on singly-linked lists (default data struct in ReasonML, but not ReScript)
-  - maps, sets, trees
+  - lists, maps, sets, trees
+    * any paradigm has data structures
   - [**recursion**](https://github.com/jfmengels/eslint-plugin-fp/blob/master/docs/rules/no-loops.md) _(now you know why there the `no-loops` rule)_
 * SE 1223 - Software Development II
   - object composition (very useful)
@@ -194,11 +193,11 @@ get this far
 #### Which courses need SE-2123 as a prerequisite?
 
 * officially:  SE 3122 (Operating Systems) for C/C++
-  - especially if you go through [Nand2Tetris](https://github.com/ossu/computer-science/blob/master/FAQ.md#why-do-you-recommend-skipping-the-second-half-of-cs50)
-* unofficially:  most SE courses starting 2nd subterm
-  - especially SE-2125 (Web App Dev't)
+  - especially if you go through [Nand2Tetris](https://github.com/ossu/computer-science/issues/833)
+* unofficially:
+  - SE-2125 (Web App Dev't)
     + doing Node.js for the backend requires a lot of FP, with currying sprinkled here and there
     + using imperative programming or OOP will most likely lead to concurrency bugs
-    + you can somehow survive without FP on the frontend, just use Vue for your final project, and
-      not React (or use Angular if you can do Typescript and DI)
+    + you can somehow survive without FP on the frontend, just use Vue or Angular 
+    for your final project, and not React
   - many FP techniques are useful in general, master before advancing in BSSE
